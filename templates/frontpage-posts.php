@@ -1,7 +1,7 @@
 <br>
 <br>
 <hr class="bg-red">
-<div class="nieuwsberichten">
+<div class="nieuwsberichten container-padding">
   <div class="row">
     <div class="col-md-2">
       <h1 class="post-header">Nieuws</h1>
@@ -18,7 +18,7 @@
       wp_reset_postdata();
     ?>
   <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje"> 
-    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/nieuwsberichtenplaatje.jpg' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
+    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/paard.png' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
   </div>
   </div>
 </div>
@@ -26,7 +26,7 @@
 <br>
 <br>
 <hr class="bg-greygreen">
-<div class="datablogs">
+<div class="datablogs container-padding">
   <div class="row">
     <div class="col-md-2">
       <h1 class="post-header">Datablogs</h1>
@@ -43,9 +43,7 @@
       wp_reset_postdata();
     ?>
     <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje"> 
-    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/datablogsplaatje.jpg' ?>" alt="Gemstone with a carving of a winged figure, Roman period. Foto van de Provincie Zuid-Holland">
+    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/roman_figure.png' ?>" alt="Gemstone with a carving of a winged figure, Roman period. Foto van de Provincie Zuid-Holland">
   </div>
   </div>
 </div>
-<br>
-<br>

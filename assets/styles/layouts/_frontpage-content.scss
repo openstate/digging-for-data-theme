@@ -2,18 +2,6 @@ hr {
   height: 25px;
 }
 
-.bg-yellow {
-  background-color: $yellow;
-}
-
-.bg-red {
-  background-color: $red;
-}
-
-.bg-greygreen {
-  background-color: $greygreen;
-}
-
 .info-text {
   background-color: $yellow;
   color: $white;
@@ -102,9 +90,13 @@ hr {
 }
 
 .nieuwsberichtenplaatje {
-  padding-top: 100px;
-  padding-bottom: 25px;
-  padding-right: 67px;
+  padding-top: 20px;
+
+  img {
+    width: 218px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .introductiewelkomplaatje {

@@ -1,5 +1,5 @@
 <div>
-  <div class="banner2">
+  <div class="banner2 container-padding">
     <div class="row">
       <div class="diggingfordata col-md-offset-2 col-md-10">
         <div class="centered">Digging for Data</div>
@@ -10,7 +10,7 @@
   <br>
   <br>
   <hr class="bg-yellow">
-  <div class="info-text">
+  <div class="info-text container-padding">
     <div class="row">
       <div class="col-md-offset-2 col-md-6">
         <h2>Digitale Indiana Jones Gezocht</h2>
@@ -25,7 +25,7 @@
         <br>
       </div>
      <div class="col-md-3 nieuwsberichtenplaatje">
-      <img class="img-responsive" src="<?= get_template_directory_uri() . '/dist/images/welkomplaatje.jpg' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
+      <img class="img-responsive" src="<?= get_template_directory_uri() . '/dist/images/welkomplaatje.png' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
      </div>
     </div>
   </div>

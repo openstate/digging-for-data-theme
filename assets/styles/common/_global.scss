@@ -58,6 +58,10 @@ p {
   text-align: center;
 }
 
+.container-padding {
+  padding: 0 30px;
+}
+
 .post p a,
 .page p a,
 .post table a,
@@ -96,6 +100,22 @@ a:active {
 
 .border-none {
   border: none;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-greygreen {
+  background-color: $greygreen;
+}
+
+.bg-dark-grey {
+  background-color: $dark-grey;
 }
 
 .yellow-txt {
