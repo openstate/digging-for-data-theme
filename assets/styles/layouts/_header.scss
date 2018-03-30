@@ -5,14 +5,9 @@
   background-size: 65%;
 }
 
-.header-logo {
-    position: relative;
-    top: -70px;
-}
-
 .header-full {
   font-size: 18px;
-  padding: 0 30px 40px 30px;
+  padding: 0 30px 0 21px;
 }
 
 .home-spacing {
@@ -23,38 +18,24 @@
   display: inline !important;
 }
 
-.waar-wanneer {
-  display: none;
-}
-
-.home .waar-wanneer {
-  display: block;
-  padding-top: 60px;
-  @media(max-width: 992px) {
-    padding-top: 0px;
-    padding-bottom: 100px;
-  }
-
-  font-size: 46px;
-  font-weight: bold;
-  line-height: 50px;
-  color: $light-grey;
-}
-
 .nav-bar > li {
-    border:1px solid #333;
-    display:block;
-    float: right;
-    line-height:38px;
-    margin:0;
-    padding:0;
-    position:relative;
+  border:1px solid #333;
+  display:block;
+  float: right;
+  line-height:38px;
+  margin:0;
+  padding:0;
+  position:relative;
  }
 
 .current-menu-item {
   > a {
     font-weight: bold;
   }
+}
+
+.menu-item {
+  border-bottom: 2px white solid;
 }
 
 .in li {
@@ -68,28 +49,29 @@
 }
 
 .nav-primary {
-  background-color: $white;
+  background-color: $grey;
   font-family: $font-family-sans-serif;
-  font-size: 22px;
+  font-size: 25px;
+  line-height: 30px;
+
+  @media(min-width: $screen-lg-min) {
+    padding-top: 15px;
+  }
 
   a:link, a:visited {
-    color: $red;
+    color: $greygreen;
+    text-decoration: none;
   }
 
   a:hover, a:active, a:focus {
     background-color: $light-grey !important;
     color: $black;
+    text-decoration: none;
   }
 }
 
 @media(max-width:767px) {
   .nav-primary {
     font-size: 18px;
-  }
-}
-
-@media(max-width:1200px) {
-  .nav-primary {
-    background-color: $grey;
   }
 }

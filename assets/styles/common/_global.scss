@@ -23,12 +23,15 @@ h2 {
 }
 
 h3 {
-  font-size: 29px;
+  font-size: 25px;
   line-height: 32px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: normal;
+  display: inline;
 }
 
 .button, .btn {
@@ -43,7 +46,7 @@ p {
 
 @media(max-width:1200px) {
   body {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 
@@ -64,19 +67,23 @@ p {
 }
 
 a:link {
-  color: $red;
+  color: $white;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: $red;
+  color: $white;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: $red;
+  color: $white;
+  text-decoration: underline;
 }
 
 a:active {
-  color: $red;
+  color: $white;
+  text-decoration: underline;
 }
 
 .display-inline {
@@ -104,32 +111,32 @@ a:active {
 }
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  height: 0;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #fff;
-    box-shadow: 0 0 15px $black;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #fff;
+  box-shadow: 0 0 15px $black;
 }
 
 .tabbed-list {
-    display:inline-block;
-    width:100px;
+  display:inline-block;
+  width:100px;
 }

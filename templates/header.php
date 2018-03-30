@@ -1,9 +1,9 @@
 <header class="banner">
   <div class="header-full">
     <div class="row">
-      <div class="header-logo col-lg-9">
+      <div class="header-logo col-md-offset-1 col-md-7">
         <a href="<?= esc_url(home_url('/')); ?>">
-          <img class="img-responsive display-inline Logo_digging_def_klein" src="<?= get_template_directory_uri() . '/dist/images/Logo_digging_def_klein.gif'; ?>" alt="Digging for Data logo"/>
+          <img class="img-responsive display-inline" src="<?= get_template_directory_uri() . '/dist/images/Logo_digging_def_klein_cropped.gif'; ?>" alt="Digging for Data logo"/>
         </a>
       </div>
       <nav class="hidden-lg nav-primary navbar-default navbar-fixed-top">
@@ -26,7 +26,7 @@
           <br>
         </div><!-- /.navbar-collapse -->
       </nav>
-      <div class="visible-lg-inline col-lg-3">
+      <div class="visible-lg-inline col-md-3">
         <div class="row">
           <nav class="nav-primary navbar-default">
             <div class="navbar-header">

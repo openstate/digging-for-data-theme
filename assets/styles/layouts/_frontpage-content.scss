@@ -6,6 +6,14 @@ hr {
   background-color: $yellow;
 }
 
+.bg-red {
+  background-color: $red;
+}
+
+.bg-greygreen {
+  background-color: $greygreen;
+}
+
 .info-text {
   background-color: $yellow;
   color: $white;
@@ -22,8 +30,8 @@ hr {
 .centered {
   color: $white;
   padding-top: 30px;
-  font-size: 46px;
-  line-height: 50px;
+  font-size: 53px;
+  line-height: 68px;
   font-weight: bold;
 }
 
@@ -31,8 +39,8 @@ hr {
   color: $white;
   padding-top: 5px;
   padding-bottom: 60px;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 53px;
+  line-height: 68px;
 }
 
 .btn-registration {
@@ -41,6 +49,10 @@ hr {
   border-radius: 10px;
   padding: 10px 30%;
   color: $white !important;
+
+  &:link {
+    text-decoration: none;
+  }
 
   &:hover {
     color: $light-grey !important;
@@ -68,6 +80,11 @@ hr {
 
 .frontpage-content-text {
   padding-bottom: 20px;
+}
+
+.post-header {
+  font-size: 29px;
+  line-height: 37px;
 }
 
 .news-datablog-archive a {

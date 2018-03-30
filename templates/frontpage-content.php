@@ -2,8 +2,8 @@
   <div class="banner2">
     <div class="row">
       <div class="diggingfordata col-md-offset-2 col-md-10">
-        <div class="centered">DIGGING FOR DATA</div>
-        <div class="centered2">KICK-OFF EVENT: 20 APRIL</div>
+        <div class="centered">Digging for Data</div>
+        <div class="centered2">Kick-off event: 20 april</div>
       </div>
     </div>
   </div>
