@@ -1,51 +1,45 @@
-@media(max-width:992px) {
-  .waar-wanneer {
-    position: static;
-    top: 0px;
-    font-size: 46px;
-    line-height: 50px;
-  }
+hr {
+  height: 25px;
+}
+
+.bg-yellow {
+  background-color: $yellow;
 }
 
 .info-text {
   background-color: $yellow;
   color: $white;
+  font-size: 24px;
+  line-height: 35px;
   padding-top: 25px;
-  padding-left: 18px;
 }
 
 .banner2 {
-    background-image: url(/wp-content/themes/digging-for-data-theme/dist/images/diggingfordata.png);
-    height: 243px;
+  background-image: url(/wp-content/themes/digging-for-data-theme/dist/images/diggingfordata.png);
+  height: 243px;
 }
 
 .centered {
-    color: $white;
-    border-radius: 0px;
-    padding-top: 30px;
-    padding-bottom: 48px;
-    padding-left: 182px;
-    font-size: 46px;
-    line-height: 50px;
-    font-weight: bold;
+  color: $white;
+  padding-top: 30px;
+  font-size: 46px;
+  line-height: 50px;
+  font-weight: bold;
 }
 
 .centered2 {
-    color: $white;
-    border-radius: 0px;
-    padding-top: 5px;
-    padding-bottom: 60px;
-    padding-left: 182px;
-    font-size: 30px;
-    line-height: 50px;
+  color: $white;
+  padding-top: 5px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .btn-registration {
   background-color: $dark-grey;
   font-size: 24px;
-  border: solid $red 1px;
   border-radius: 10px;
-  padding: 5px 30%;
+  padding: 10px 30%;
   color: $white !important;
 
   &:hover {
@@ -73,7 +67,6 @@
 }
 
 .frontpage-content-text {
-  font-weight: 300;
   padding-bottom: 20px;
 }
 
@@ -92,13 +85,13 @@
 }
 
 .nieuwsberichtenplaatje {
-    padding-top: 100px;
-    padding-bottom: 25px;
-    padding-right: 67px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  padding-right: 67px;
 }
 
 .introductiewelkomplaatje {
-    padding-top: 100px;
-    padding-bottom: 25px;
-    padding-right: 67px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  padding-right: 67px;
 }
