@@ -1,89 +1,91 @@
 .app-challenge .wrap {
-    background-color: $yellow;
-    font-family: $font-family-sans-serif;
-    font-color: $white;
-    border-bottom: 30px solid $white;
+  background-color: $yellow;
 }
 
 .over .wrap {
-    background-color: $greygreen;
-    font-family: $font-family-sans-serif;
-    font-color: $white;
-    border-bottom: 30px solid $white;
+  background-color: $yellow;
 }
 
-.page-template.nieuwsberichten .archive {
-    background-color: $red;
+.page-template.nieuwsberichten .archive,
+.post-content.nieuws {
+  background-color: $red;
 }
 
-.page-template.datablogs .archive {
-    background-color: $greygreen;
+.page-template.datablogs .archive,
+.post-content.datablog {
+  background-color: $greygreen;
 }
 
-.archive {
-    padding: 0 15px;
+.archive, .page-content, .post-content {
+  padding: 0 15px;
 }
 
 a.anchor-offset {
-    display: block;
-    position: relative;
-    top: -55px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -55px;
+  visibility: hidden;
 }
 
 .page-header {
   margin-top: 0;
 }
 
+.small-hr {
+  height: 1px;
+  background-color: $white;
+  margin-top: 0;
+}
+
 /*sticky nav section*/
 .sticky-nav {
-    font-family: $font-family-sans-serif;
-    font-size: 1.2em;
-    z-index: 1000;
-    background: $white;
-    border: none;
-    margin-bottom: 0;
+  font-family: $font-family-sans-serif;
+  font-size: 1.2em;
+  z-index: 1000;
+  background: $white;
+  border: none;
+  margin-bottom: 0;
 }
 
 .visible-lg-block.getsticky {
-    top: 0;
+  top: 0;
 /* http://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div */
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 100%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
 }
 
 .hidden-lg.getsticky {
-    top: 50px;
+  top: 50px;
 /* http://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div */
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 100%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
 }
 
 .nav-pills {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .sticky-nav-item{
-    display: inline-block !important;
-    float: none !important;
+  display: inline-block !important;
+  float: none !important;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: $black;
-    border: 1px solid $black;
+  color: #fff;
+  background-color: $black;
+  border: 1px solid $black;
 }
 
 .page-scroll {
-    border: 1px solid $black;
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    display: inline-block;
+  border: 1px solid $black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
 }

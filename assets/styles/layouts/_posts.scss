@@ -1,19 +1,6 @@
 .post-overview {
   padding: 0 15px 0 15px;
   margin: 10px;
-
-  h3, h4 {
-    color: $black;
-  }
-}
-
-.post-header {
-  padding-left: 15px;
-}
-
-.archive article {
-  padding-top: 15px;
-  padding-left: 52px;
 }
 
 .post-type {
@@ -25,27 +12,23 @@
 }
 
 .entry-title a:link {
-  color: inherit;
   font-weight: bold;
   text-decoration: none;
 }
 
 .entry-title a:visited {
-  color: inherit;
   font-weight: bold;
   text-decoration: none;
 }
 
 .entry-title a:hover {
   opacity: 0.5;
-  color: inherit;
   font-weight: bold;
   text-decoration: none;
 }
 
 .entry-title a:active {
   opacity: 0.7;
-  color: inherit;
   font-weight: bold;
   text-decoration: none;
 }

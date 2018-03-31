@@ -18,17 +18,13 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-lg-5">
-        </div>
-        <div class="col-lg-7">
-          <ul class="list-inline left-footer-list-padding">
-            <br>
-            <br>
-            <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23DiggingforData" target="_blank">#DiggingforData</a></li>
-          </ul>
-        </div>
+        <ul class="list-inline">
+          <br>
+          <br>
+          <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23DiggingforData" target="_blank">#DiggingforData</a></li>
+        </ul>
       </div>
       <br>
     </div>
@@ -45,7 +41,7 @@
         </div>
       </div>
       <br>
-      <ul class="list-inline left-footer-list-padding">
+      <ul class="list-inline">
         <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
         <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
         <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23DiggingforData" target="_blank">#DiggingforData</a></li>

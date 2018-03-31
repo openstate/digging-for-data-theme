@@ -1,4 +1,6 @@
-<div class="container">
+<?php $category = get_the_category(); ?>
+<hr class="bg-<? print($category[0]->name) ?>">
+<div class="post-content <? print($category[0]->name) ?>">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <?php while (have_posts()) : the_post(); ?>
@@ -7,10 +9,10 @@
             <h1 class="entry-title"><?php the_title(); ?></h1>
             <?php
               if (in_category('news')) {
-                echo '<span class="post-type"><b>[Nieuws]</b></span>';
+                echo '<span class="post-type"><h4><i>[Nieuws]</i></h4></span>';
               }
               elseif (in_category('datablog')) {
-                echo '<span class="post-type"><b>[Datablog]</b></span>';
+                echo '<span class="post-type"><h4><i>[Datablog]</i></h4></span>';
               }
             ?>
             <?php get_template_part('templates/entry-meta'); ?>

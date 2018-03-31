@@ -13,7 +13,7 @@
   <div class="info-text container-padding">
     <div class="row">
       <div class="col-md-offset-2 col-md-6">
-        <h2>Digitale Indiana Jones Gezocht</h2>
+        <div class="frontpage-content-header">Digitale Indiana Jones Gezocht</div>
         <div class="frontpage-content-text">
           De provincie Zuid-Holland is een rijk archeologisch gebied. Archeologie vertelt veel over onze geschiedenis. De provincie Zuid-Holland wil samen met anderen erfgoed helpen ontdekken, beschermen en zorgen dat iedereen er kennis mee kan maken daarom wordt de Digging for Data App Challenge georganiseerd. Ben jij geïnteresseerd in zowel archeologie als data? Heb jij een fantastisch idee voor een archeologie applicatie? Meld je dan aan voor de kick-off meeting.
         </div>

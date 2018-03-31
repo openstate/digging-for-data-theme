@@ -4,7 +4,7 @@
 <div class="nieuwsberichten container-padding">
   <div class="row">
     <div class="col-md-2">
-      <h1 class="post-header">Nieuws</h1>
+      <div class="post-header">NIEUWS</div>
     </div>
     <?php
       $args = array( 'posts_per_page' => 2, 'category_name' => 'News' );
@@ -29,7 +29,7 @@
 <div class="datablogs container-padding">
   <div class="row">
     <div class="col-md-2">
-      <h1 class="post-header">Datablogs</h1>
+      <div class="post-header">DATABLOGS</div>
     </div>
     <?php
       $args = array( 'posts_per_page' => 2, 'category_name' => 'Datablog' );
