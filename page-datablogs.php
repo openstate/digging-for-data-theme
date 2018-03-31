@@ -3,7 +3,7 @@
  * Template Name: Datablogs Page
  */
 ?>
-<hr class="bg-greygreen">
+<hr class="bg-greygreen no-top-margin">
 <div class="archive">
   <div class="row">
     <div class="col-md-offset-2 col-md-6">

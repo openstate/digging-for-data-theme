@@ -3,7 +3,7 @@
  * Template Name: News Page
  */
 ?>
-<hr class="bg-red">
+<hr class="bg-red no-top-margin">
 <div class="archive">
   <div class="row">
     <div class="col-md-offset-2 col-md-6">

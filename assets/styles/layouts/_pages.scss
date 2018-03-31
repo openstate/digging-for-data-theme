@@ -1,8 +1,8 @@
-.app-challenge .wrap {
+.app-challenge .page-content {
   background-color: $yellow;
 }
 
-.over .wrap {
+.over .page-content {
   background-color: $yellow;
 }
 
@@ -28,6 +28,10 @@ a.anchor-offset {
 }
 
 .page-header {
+  margin-top: 0;
+}
+
+.no-top-margin {
   margin-top: 0;
 }
 
