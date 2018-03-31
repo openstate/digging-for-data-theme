@@ -7,7 +7,7 @@
 <div class="archive">
   <div class="row">
     <div class="col-md-offset-2 col-md-6">
-      <h1 class="post-header">DATABLOGS</h1>
+      <h1>DATABLOGS</h1>
       <?php
         $args = array( 'posts_per_page' => 100, 'category_name' => 'Datablog' );
         $myposts = get_posts( $args );
