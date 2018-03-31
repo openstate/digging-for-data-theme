@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Open State Foundation">
   <meta property="og:title" content="Digging for Data" />
+  <meta property="og:description" content="Op zoek naar Indiana Jones 2.0" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://diggingfordata.nl/wp-content/themes/digging-for-data-theme/dist/images/logo_og.png" />
   <meta property="og:image:secure_url" content="https://diggingfordata.nl/wp-content/themes/digging-for-data-theme/dist/images/logo_og.png" />
