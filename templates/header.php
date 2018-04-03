@@ -27,6 +27,7 @@
         </div><!-- /.navbar-collapse -->
       </nav>
       <div class="visible-lg-inline col-md-3">
+        <div class="nav-overlay"></div>
         <div class="row">
           <nav class="nav-primary navbar-default">
             <div class="navbar-header">

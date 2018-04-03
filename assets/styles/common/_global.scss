@@ -52,6 +52,19 @@ p {
   }
 }
 
+.nav-overlay {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.1);
+  background-blend-mode: multiply;
+  z-index: 10;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -155,7 +168,7 @@ a:active {
   padding-left: 0px;
   padding-right: 0px;
   background-color: #fff;
-  box-shadow: 0 0 15px $black;
+  box-shadow: 0 0 20px $black;
 }
 
 .tabbed-list {
