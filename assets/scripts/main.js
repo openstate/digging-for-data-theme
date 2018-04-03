@@ -74,8 +74,35 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+// Hide overlay if its size is less than 150px
+function check_overlay_size() {
+  if ($(".overlay").width() < 150) {
+    $(".overlay").css("display", "none");
+  } else {
+    $(".overlay").css("display", "block");
+  }
+}
+
+// Set the width of the overlay so it is left of the logo
+function set_overlay_width() {
+  $(".overlay").css("width", $(".header-logo").offset().left);
+}
+
 $(document).ready(function(){
+  $(window).resize(function(){
+    set_overlay_width();
+    check_overlay_size();
+  });
+});
+
+$(document).ready(function(){
+  // Set the height of both overlays to the height
+  // of full page (i.e., the body)
   $(".nav-overlay").height($("body").height());
+  $(".overlay").height($("body").height());
+
+  set_overlay_width();
+  check_overlay_size();
 });
 
 })(jQuery); // Fully reference jQuery after this point.

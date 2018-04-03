@@ -12,8 +12,8 @@
         <div class="col-md-4">
           <a href="https://diggingfordata.nl/" target="_blank"><img class="img-responsive footer-image" src="<?= get_template_directory_uri() . '/dist/images/Logo_digging_4_witte_tekst.svg'; ?>" alt="Digging for Data logo"></a>
         </div>
-        <div class="col-md-3">
-          <a href="https://openstate.eu/" style="" target="_blank"><img class="img-responsive footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-foundation.svg'; ?>" alt="Open State Foundation logo"></a>
+        <div class="col-md-3 to-front">
+          <a href="https://openstate.eu/" target="_blank"><img class="img-responsive footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-foundation.svg'; ?>" alt="Open State Foundation logo"></a>
         </div>
       </div>
       <br>
@@ -37,7 +37,7 @@
           <a href="https://diggingfordata.nl/" target="_blank"><img class="footer-image" src="<?= get_template_directory_uri() . '/dist/images/Logo_digging_4_witte_tekst.svg'; ?>" alt="Digging for Data logo"></a>
         </div>
         <div class="col-xs-12">
-          <a href="https://openstate.eu/" style="" target="_blank"><img class="footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-foundation.svg'; ?>" alt="Open State Foundation logo"></a>
+          <a href="https://openstate.eu/" target="_blank"><img class="footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-foundation.svg'; ?>" alt="Open State Foundation logo"></a>
         </div>
       </div>
       <br>
