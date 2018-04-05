@@ -1,4 +1,4 @@
-[Hack de Valse Start](https://hackdevalsestart.nl/) WordPress theme based on [Sage](https://roots.io/sage/).
+[Digging for Data](https://diggingfordata.nl/) WordPress theme based on [Sage](https://roots.io/sage/).
 
 Basic installation instructions (check out Sage's [Theme setup](https://github.com/openstate/hack-de-valse-start-theme#theme-setup) for instructions on installing `gulp` and `bower`):
  * Run `git clone` to fetch this repository into your WordPress' `themes` folder
