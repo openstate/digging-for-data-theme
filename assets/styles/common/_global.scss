@@ -52,6 +52,13 @@ p {
   }
 }
 
+hr {
+  height: 25px;
+  border: none;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .overlay {
   position: absolute;
   width: 0;
@@ -84,10 +91,6 @@ p {
 
 .align-center {
   text-align: center;
-}
-
-.container-padding {
-  padding: 0 30px;
 }
 
 .post p a,
@@ -124,10 +127,6 @@ a:active {
 
 .float-left {
   float: left;
-}
-
-.border-none {
-  border: none;
 }
 
 .bg-yellow {
@@ -176,10 +175,6 @@ a:active {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0px;
-  padding-right: 0px;
   background-color: #fff;
   box-shadow: 0 0 20px $black;
 }

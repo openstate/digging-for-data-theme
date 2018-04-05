@@ -1,23 +1,9 @@
-.app-challenge .page-content {
-  background-color: $yellow;
-}
-
-.over .page-content {
-  background-color: $yellow;
-}
-
-.page-template.nieuwsberichten .archive,
 .post-content.news {
   background-color: $red;
 }
 
-.page-template.datablogs .archive,
 .post-content.datablog {
   background-color: $greygreen;
-}
-
-.archive, .page-content, .post-content {
-  padding: 0 15px;
 }
 
 a.anchor-offset {
@@ -25,10 +11,6 @@ a.anchor-offset {
   position: relative;
   top: -55px;
   visibility: hidden;
-}
-
-.page-header {
-  margin-top: 0;
 }
 
 .no-top-margin {
@@ -39,6 +21,8 @@ a.anchor-offset {
   height: 1px;
   background-color: $white;
   margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /*sticky nav section*/
