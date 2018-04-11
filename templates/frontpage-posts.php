@@ -16,7 +16,13 @@
   <?php endforeach;
     wp_reset_postdata();
   ?>
-  <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje"> 
+  <?php if (count($myposts) == 0): ?>
+  <div class="col-xs-12 col-md-offset-6 col-md-3 nieuwsberichtenplaatje">
+  <?php elseif (count($myposts) == 1): ?>
+  <div class="col-xs-12 col-md-offset-3 col-md-3 nieuwsberichtenplaatje">
+  <?php else: ?>
+  <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje">
+  <?php endif; ?>
     <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/paard.png' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
   </div>
 </div>
@@ -39,7 +45,13 @@
   <?php endforeach;
     wp_reset_postdata();
   ?>
+  <?php if (count($myposts) == 0): ?>
+  <div class="col-xs-12 col-md-offset-6 col-md-3 nieuwsberichtenplaatje">
+  <?php elseif (count($myposts) == 1): ?>
+  <div class="col-xs-12 col-md-offset-3 col-md-3 nieuwsberichtenplaatje">
+  <?php else: ?>
   <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje">
+  <?php endif; ?>
   <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/roman_figure.png' ?>" alt="Gemstone with a carving of a winged figure, Roman period. Foto van de Provincie Zuid-Holland">
   </div>
 </div>

@@ -1,7 +1,7 @@
 <?php $category = get_the_category(); ?>
 <hr class="bg-<? print($category[0]->name) ?>">
 <div class="row post-content <? print($category[0]->name) ?>">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-6 col-md-offset-2">
     <?php while (have_posts()) : the_post(); ?>
       <article <?php post_class(); ?>>
         <header>
@@ -60,5 +60,22 @@
         </footer>
       </article>
     <?php endwhile; ?>
+  </div>
+  <div class="visible-lg col-lg-3 nieuwsberichtenplaatje">
+    <br>
+    <br>
+    <img class="img-responsive" src="<?= get_template_directory_uri() . '/dist/images/welkomplaatje.png' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/paard.png' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/roman_figure.png' ?>" alt="Gemstone with a carving of a winged figure, Roman period. Foto van de Provincie Zuid-Holland">
   </div>
 </div>

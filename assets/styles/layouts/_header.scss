@@ -9,6 +9,11 @@
   font-size: 18px;
 }
 
+.header-logo img {
+  width: 420px;
+  padding-left: 42px;
+}
+
 .home-spacing {
   display: none !important;
 }
@@ -25,6 +30,11 @@
   margin: 0;
   padding: 0;
   position: relative;
+}
+
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .current-menu-item {
