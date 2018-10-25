@@ -19,7 +19,7 @@
     <ul class="list-inline">
       <br>
       <br>
-      <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      <li><a class="social left-footer-padding" href="https://www.facebook.com/OpenStateFoundation/" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
       <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23DiggingforData" target="_blank">#DiggingforData</a></li>
     </ul>
